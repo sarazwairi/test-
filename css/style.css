@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+html{
+  background-image: url('https://s1.1zoom.me/big3/182/Israel_Sea_Sky_Dead_Sea_Neve_Zohar_Trees_Clouds_584365_5120x2827.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height:1500px;
+  background-size: cover;
+  font-family: sans-serif;
+}
+body{
+  margin: 0;
+}
+img{
+   height: 70px;
+   padding-top: 10px;
+   padding-left: 20px;
+}
+a:active
+a:hover{
+  outline: 0;
+}
+.logo a{
+  font-size: 60px;
+  text-decoration: none;
+  color: black;
+  list-style-type: none;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+}
+div.logo{
+  margin-left: 20px;
+}
+li{
+  display:inline;
+  background: rgba(0, 0, 0, 0.2);
+}
+li{
+  float: right;
+}
+li a{
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+li a:hover{
+  background-color: rgb(100, 237, 237);
+}
+.welcome{
+  font-family:serif;
+  font-size: 62px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%,-50%);
+  background: rgba(0, 0, 0, 0.5);
+}
+.button{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%,-50%);
+  border-color: transparent;
+  border-style: solid;
+  font-size: 30px;
+  background-color:  rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.button:hover{
+  background-color:  rgb(100, 237, 237);
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
